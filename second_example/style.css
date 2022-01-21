@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: darksalmon;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fill {
+	background-image: url("https://source.unsplash.com/random/300x400");
+	position: relative;
+	height: 400px;
+	width: 300px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.hold {
+	border: solid 5px #ccc;
+}
+
+.empty {
+	display: inline-block;
+	height: 400px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 20px;
+	background: white;
+}
+
+.hovered {
+	background: #f4f4f4;
+	border-style: dashed;
+}
+.invisible {
+	background: teal;
+}

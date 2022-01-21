@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: rgb(32, 35, 37);
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.card {
+	width: 300px;
+	height: 400px;
+	background: rgb(40, 45, 48);
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
+}
+.card:hover {
+	background: rgb(38, 43, 46);
+}
+
+.dragStart {
+	background: yellow;
+}
+.dragEnter {
+	background: rgb(212, 208, 208);
+}
+.dragEnd {
+	background: blue;
+}
+.dragOver {
+	background: maroon;
+}
+.dragLeave {
+	background: palegreen;
+}
+.dragDrop {
+	background: thistle;
+}
